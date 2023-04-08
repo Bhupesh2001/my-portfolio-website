@@ -78,7 +78,18 @@ header {
         height: 100vh;
     }
 
-    .header__socials,.scroll__down{
+    .scroll__down{
         display: none;
+    }
+    .header__socials{
+        all: unset;
+    }
+
+    .cta{
+        margin-bottom: 10px;
+    }
+
+    .header__socials a{
+        margin: 0px 5px;
     }
 }
