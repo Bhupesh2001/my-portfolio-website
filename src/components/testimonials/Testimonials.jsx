@@ -1,4 +1,4 @@
-import React, { useRef, useState }from 'react'
+import React from 'react'
 import './testimonials.css'
 import TestimonialCard from './TestimonialCard'
 import data from './data'
