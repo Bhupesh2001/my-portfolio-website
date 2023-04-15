@@ -1,13 +1,13 @@
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
+import IMG1 from '../../assets/konnet/konnet1.png'
+import IMG2 from '../../assets/textutils/final.png'
+import IMG3 from '../../assets/konnet/konnet3.png'
+import IMG4 from '../../assets/konnet/konnet4.png'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
 let data = [
     {
-        image:IMG1,
+        image:IMG3,
         title:"Konnet",
         github:"https://github.com",
         demo:"https://youtube.com"
@@ -19,7 +19,7 @@ let data = [
         demo:"https://youtube.com"
     },
     {
-        image:IMG3,
+        image:IMG1,
         title:"oabahsd",
         github:"https://github.com",
         demo:"https://youtube.com"

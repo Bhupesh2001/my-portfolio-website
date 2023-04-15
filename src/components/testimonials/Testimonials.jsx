@@ -21,10 +21,10 @@ const Testimonials = () => {
       navigation={true}
       >
         {
-          data.map(({ avatar, name, review }, index) => {
+          data.map(({ avatar, name, review,scale }, index) => {
             return (
               <SwiperSlide>
-                <TestimonialCard key={index} avatar={avatar} name={name} review={review} />
+                <TestimonialCard key={index} avatar={avatar} name={name} review={review}/>
               </SwiperSlide>
             )
           })

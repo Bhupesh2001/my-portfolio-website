@@ -49,8 +49,16 @@ header {
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
+img {
+    /* png */
+    scale: 1.3;
+
+    /* jpg */ 
+    /* scale: 1.45;  */
+}
+
 /* =============    SCROLL DOWN    ================== */
-.scroll__down{
+.scroll__down {
     position: absolute;
     right: -2.3rem;
     bottom: 5rem;
@@ -63,9 +71,19 @@ header {
 /* ==================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */
 /* Tablets */
 
-@media screen and (max-width:1024px){
-    header{
-        height: 68vh;
+@media screen and (max-width:1024px) {
+    header {
+        height: 120vh;
+    }
+
+    .header__socials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.8rem;
+        position: absolute;
+        left: 0;
+        /* bottom: 3rem; */
     }
 }
 
@@ -73,23 +91,24 @@ header {
 /* ==================== MEDIA QUERIES (SMALL DEVICES) ==================== */
 /* Phone */
 
-@media screen and (max-width:600px){
-    header{
-        height: 100vh;
+@media screen and (max-width:600px) {
+    header {
+        height: 120vh;
     }
 
-    .scroll__down{
+    .scroll__down {
         display: none;
     }
-    .header__socials{
+
+    .header__socials {
         all: unset;
     }
 
-    .cta{
+    .cta {
         margin-bottom: 10px;
     }
 
-    .header__socials a{
+    .header__socials a {
         margin: 0px 5px;
     }
 }

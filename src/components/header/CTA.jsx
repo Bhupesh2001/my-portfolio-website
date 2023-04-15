@@ -1,6 +1,5 @@
 import React from 'react'
 import CV from '../../assets/cv.pdf'
-import './header.css'
 
 
 // CALL TO ACTION BUTTONS
