@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TestimonialCard(props) {
+function AchievementCard(props) {
     
     return (
         <article className="testimonial">
@@ -13,4 +13,4 @@ function TestimonialCard(props) {
     )
 }
 
-export default TestimonialCard
+export default AchievementCard

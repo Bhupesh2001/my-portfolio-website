@@ -1,4 +1,4 @@
-.container.testimonials__container{
+.container.achievement__container{
     width: 40%;
     padding-bottom: 3.5rem;
 }
@@ -34,7 +34,7 @@
 /* Tablets */
 
 @media screen and (max-width:1024px) {
-    .container.testimonials__container{
+    .container.achievement__container{
         width: 60%;
     }
 }
@@ -44,7 +44,7 @@
 /* Phone */
 
 @media screen and (max-width:600px) {
-    .container.testimonials__container{
+    .container.achievement__container{
         width: var(--container-width-sm);
     }
     .client__review{
