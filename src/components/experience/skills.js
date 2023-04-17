@@ -1,7 +1,7 @@
 let frontendSkills = [
     { name: "HTML", level: "Experienced" },
     { name: "CSS", level: "Intermediate" },
-    { name: "Javascript", level: "Intermediate" },
+    { name: "Photoshop", level: "Intermediate" },
     { name: "React Js", level: "Intermediate" },
     { name: "Flutter", level: "Experienced" },
     { name: "Bootstarp", level: "Intermediate" },

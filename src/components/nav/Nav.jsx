@@ -12,11 +12,19 @@ const Nav = () => {
   }
   return (
     <nav>
-      <a id='#' href="#" onClick={handleClick} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
+      {/* <a id='#' href="#" onClick={handleClick} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
       <a id='#about' href="#about" onClick={handleClick} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
       <a id='#experience' href="#experience" onClick={handleClick} className={activeNav === '#experience' ? 'active' : ''}><BiBook /></a>
       <a id='#services' href="#services" onClick={handleClick} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine /></a>
-      <a id='#contact' href="#contact" onClick={handleClick} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
+      <a id='#contact' href="#contact" onClick={handleClick} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a> */}
+    
+      <a id='#' href="#"><AiOutlineHome /></a>
+      <a id='#about' href="#about"><AiOutlineUser /></a>
+      <a id='#experience' href="#experience"><BiBook /></a>
+      <a id='#services' href="#services"><RiServiceLine /></a>
+      <a id='#contact' href="#contact"><BiMessageSquareDetail /></a>
+    
+    
     </nav>
   )
 }

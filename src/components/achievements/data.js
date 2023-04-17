@@ -1,31 +1,30 @@
-import AVTR1 from "../../assets/IIT.jpg";
-import AVTR3 from "../../assets/avatar3.jpg";
-import AVTR4 from "../../assets/avatar4.jpg";
+import IIT from "../../assets/logos/IIT.jpg";
+import Newton from "../../assets/logos/newton.png";
+import Adobe from "../../assets/logos/adobe.png";
+import Github from "../../assets/logos/github.png";
 
 let data = [
   {
-    avatar:
-      AVTR1,
+    avatar: IIT,
     name: "IIT Khragpur",
-    review: "Qualified GATE CSE 2023 (GEN) conducted by IIT Kanpur"
+    review: "Qualified GATE CSE 2023 (GEN) conducted by IIT Kanpur",
   },
   {
-    avatar: AVTR1,
-    name: "name2",
-    review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem vel voluptatem dolor dolores molestias repudiandae? Quasi possimus praesentium incidunt temporibus itaque dignissimos vitae eligendi, libero asperiores! Doloribus, hic iure. Nam?"
+    avatar: Github,
+    name: "Github",
+    review: "I have contributed in Github in a Leetcode Question",
   },
   {
-    avatar: AVTR3,
-    name: "name3",
+    avatar: Newton,
+    name: "Newton School",
     review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem vel voluptatem dolor dolores molestias repudiandae? Quasi possimus praesentium incidunt temporibus itaque dignissimos vitae eligendi, libero asperiores! Doloribus, hic iure. Nam?"
+      "Won a Amazon Gift card for achieving rank 1778 in a coding contest conducted by Newton School",
   },
   {
-    avatar: AVTR4,
-    name: "name4",
-    review:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem vel voluptatem dolor dolores molestias repudiandae? Quasi possimus praesentium incidunt temporibus itaque dignissimos vitae eligendi, libero asperiores! Doloribus, hic iure. Nam?"
+    avatar: Adobe,
+    name: "Adobe",
+    review: "I am certified in Adobe UI/UX.",
   },
+
 ];
 export default data;

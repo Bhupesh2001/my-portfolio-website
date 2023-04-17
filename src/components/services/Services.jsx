@@ -10,9 +10,9 @@ function services() {
       <h2>Services</h2>
 
       <div className="container services__container">
-        <ServiceCard card_title="UI/UX" list= {list1}/>
-        <ServiceCard card_title="Web Developement" list= {list2}/>
-        <ServiceCard card_title="Content Creation" list= {list3}/>
+        <ServiceCard card_title="Mobile App Development" list= {list1}/>
+        <ServiceCard card_title="Web App Developement" list= {list2}/>
+        <ServiceCard card_title="More" list= {list3}/>
       </div>
     </section>
   )
