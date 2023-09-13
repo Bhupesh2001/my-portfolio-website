@@ -1,19 +1,21 @@
 {
   "files": {
     "main.css": "/my-portfolio-website/static/css/main.8130ce54.css",
-    "main.js": "/my-portfolio-website/static/js/main.afc96740.js",
+    "main.js": "/my-portfolio-website/static/js/main.4183a18d.js",
     "static/media/pordium-transparent.png": "/my-portfolio-website/static/media/pordium-transparent.dd4de76d37d60c16d1de.png",
     "static/media/konnet.png": "/my-portfolio-website/static/media/konnet.cd8ab3e1c5cc91bfd015.png",
     "static/media/me-about.jpg": "/my-portfolio-website/static/media/me-about.734a585f842e963c01de.jpg",
     "static/media/textutils.png": "/my-portfolio-website/static/media/textutils.54d4575ccf76351fee54.png",
     "static/media/cv.pdf": "/my-portfolio-website/static/media/cv.c17562fc7155739e2801.pdf",
     "static/media/IIT.jpg": "/my-portfolio-website/static/media/IIT.b5d612f4720cccc13931.jpg",
+    "static/media/keeperApp.png": "/my-portfolio-website/static/media/keeperApp.2895ff4f4f35dfebdb45.png",
+    "static/media/counter.png": "/my-portfolio-website/static/media/counter.9eb060e33b39870151a5.png",
     "index.html": "/my-portfolio-website/index.html",
     "main.8130ce54.css.map": "/my-portfolio-website/static/css/main.8130ce54.css.map",
-    "main.afc96740.js.map": "/my-portfolio-website/static/js/main.afc96740.js.map"
+    "main.4183a18d.js.map": "/my-portfolio-website/static/js/main.4183a18d.js.map"
   },
   "entrypoints": [
     "static/css/main.8130ce54.css",
-    "static/js/main.afc96740.js"
+    "static/js/main.4183a18d.js"
   ]
 }
